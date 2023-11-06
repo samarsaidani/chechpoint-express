@@ -1,0 +1,31 @@
+html 
+ head 
+  title geiser
+  link(rel="stylesheet", href="/stylesheets/style.css")
+ body 
+  div.tete 
+   include ./navision.pug  
+  div 
+   h1.titre CONTACTEZ-NOUS  
+  div.contact 
+   div.email
+    img(src="https://png.pngtree.com/png-clipart/20190516/original/pngtree-email-vector-icon-png-image_4279324.jpg", alt="", srcset="")
+    h4 Email : sam@gmail.com
+   div.local
+    img(src="https://img.freepik.com/vecteurs-libre/emplacement_53876-25530.jpg?size=338&ext=jpg&ga=GA1.1.1826414947.1698969600&semt=ais.png", alt="", srcset="")
+    h4 Bureau: bizerte  centre ville
+   div.phone
+    img(src="https://w7.pngwing.com/pngs/706/31/png-transparent-business-logo-online-art-gallery-telefone-text-mobile-phones-internet-thumbnail.png", alt="", srcset="")
+    h4 Telephone: +21600000000
+  div.cont 
+   form(action="", method="post") 
+   h4 Name: 
+   input(type="text" )
+   H4 Email:
+   input(type="text")
+   h4 Message:
+   textarea#message(name="massage", cols="30", rows="10") 
+   h1 
+   button Nous faire parvenir
+   
+

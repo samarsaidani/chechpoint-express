@@ -1,0 +1,129 @@
+.card{
+    border: 1px solid black;
+
+    
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 300px;
+    padding: 50px 50px 50px 50px;
+   
+    
+}
+body{
+    background-color:#FF7514;
+}
+
+
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+
+}
+.service{
+  
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav{
+   
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+   
+    background-color: white;
+    border-radius: 30px;
+    text-decoration: none;
+
+}
+.titre{
+    display: flex;
+    justify-content: center;
+}
+.contact{
+  
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.email{
+    
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    border-radius: 20px;
+}
+.local{
+    
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    border-radius: 20px;
+
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    border-radius: 20px;
+    
+
+
+}
+#message{
+    width: 700px;
+}
+.cont{
+    border: 1px solid black;
+
+    
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 500px;
+    padding: 0 50px 50px 50px;
+
+
+    
+
+    
+}
+button{
+    background-color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 700px;
+}
+
+input{
+    width: 700;
+    height: 50px ;
+    border-radius: 30px;
+}
+pre{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.home{
+   
+    width: 1500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.geiser{
+    width: 1400px;
+    height: 500px;
+}
